@@ -15,6 +15,8 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 
 public class MainActivity2 extends AppCompatActivity {
     EditText weight, height;
@@ -128,25 +130,29 @@ public class MainActivity2 extends AppCompatActivity {
 
         float bmi = valueW / (valueH * valueH);
 
-        if (bmi < 16) {
-            BMIresult = "Severely Under Weight";
-
-        } else if (bmi < 18.5) {
+        if(bmi <= 18.4){
             BMIresult = "Under Weight";
-            healthText = "Malnutrition risk";
-        } else if (bmi >= 18.5 && bmi <= 24.9) {
+            healthText = "Malnutrition Risk";
+        }else if(bmi > 18.4 && bmi <= 24.9){
             BMIresult = "Normal Weight";
-            healthText = "low risk";
-        } else if (bmi >= 25 && bmi <= 29.9) {
+            healthText = "Low Risk";
+        }else if (bmi > 24.9 && bmi <= 29.9){
             BMIresult = "Overweight";
-            healthText = "enchanced risk";
-        } else {
-            BMIresult = "Obese";
-            healthText = "medium risk";
-
+            healthText = "Enchanced Risk";
+        }else if (bmi > 29.9 && bmi <= 34.9){
+            BMIresult = "Moderately Obese";
+            healthText = "Medium Risk";
+        }else if (bmi > 34.9 && bmi <= 39.9){
+            BMIresult = "Severely Obese";
+            healthText = "High Risk";
+        }else if (bmi > 39.9){
+            BMIresult = "Very Severely Obese";
+            healthText = "Very High Risk";
         }
+        DecimalFormat df = new DecimalFormat("#.#");
+        df.setRoundingMode(RoundingMode.CEILING);
 
-        calculation = bmi + " kg/m²";
+        calculation = df.format(bmi) + " kg/m²";
         category.setText(BMIresult);
         healthrisk.setText(healthText);
         resulttext.setText(calculation);

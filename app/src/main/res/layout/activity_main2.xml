@@ -16,8 +16,8 @@
         android:layout_alignParentRight="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
-        android:layout_marginEnd="109dp"
-        android:layout_marginRight="109dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
         android:text="BMI CALCULATOR"
         android:textSize="24sp" />
 
@@ -28,9 +28,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginLeft="14dp"
-        android:layout_marginTop="229dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="208dp"
         android:text="WEIGHT (kg)" />
 
     <TextView
@@ -40,9 +40,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="296dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="265dp"
         android:text="HEIGHT (m) " />
 
     <EditText
@@ -51,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="187dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="244dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -75,7 +75,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginEnd="139dp"
         android:layout_marginRight="139dp"
-        android:layout_marginBottom="283dp"
+        android:layout_marginBottom="203dp"
         android:onClick="calculateBMI"
         android:text="CALCULATE"
         app:backgroundTint="@android:color/holo_orange_light" />
@@ -88,9 +88,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="179dp"
-        android:layout_marginLeft="179dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginStart="167dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginTop="400dp"
         android:text="RESULT BMI" />
 
     <TextView
@@ -100,9 +100,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="164dp"
-        android:layout_marginLeft="164dp"
-        android:layout_marginBottom="118dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="186dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginBottom="160dp"
         android:text="NONE" />
 
     <TextView
@@ -112,8 +113,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
         android:layout_marginBottom="121dp"
         android:text="Category" />
 
@@ -125,9 +126,9 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginEnd="184dp"
-        android:layout_marginRight="184dp"
-        android:layout_marginBottom="222dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginRight="179dp"
+        android:layout_marginBottom="122dp"
         android:text="none" />
 
     <TextView
@@ -137,9 +138,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginTop="541dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="505dp"
         android:text="Health Risk" />
 
     <TextView
@@ -149,9 +150,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="541dp"
-        android:layout_marginEnd="214dp"
-        android:layout_marginRight="214dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="507dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
         android:text="none" />
 
     <Button
@@ -160,7 +162,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="23dp"
+        android:layout_marginBottom="2dp"
         android:text="About"
         app:backgroundTint="@android:color/holo_red_light" />
 
@@ -170,7 +172,7 @@
         android:layout_height="116dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="65dp"
         app:srcCompat="@drawable/_pg"
         tools:layout_editor_absoluteY="47dp" />
 
@@ -180,9 +182,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="107dp"
-        android:layout_marginLeft="107dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="105dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginBottom="258dp"
         android:onClick="cm"
         android:text="cm"
         app:backgroundTint="#E66792"
@@ -194,9 +197,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginEnd="93dp"
-        android:layout_marginRight="93dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="257dp"
         android:onClick="m"
         android:text="m"
         app:backgroundTint="#E1618D"
