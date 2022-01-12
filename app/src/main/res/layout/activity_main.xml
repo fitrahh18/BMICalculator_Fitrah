@@ -20,23 +20,7 @@
         android:text="Continue"
         app:backgroundTint="@android:color/holo_red_light" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="76dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="-112dp"
-        android:layout_marginRight="-112dp"
-        android:text="WELCOME TO BMI CALCULATOR!"
-        android:textSize="24sp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="25dp" />
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -56,5 +40,20 @@
         android:layout_alignParentRight="true"
         android:layout_marginLeft="-2dp"
         android:layout_marginRight="3dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="46dp"
+        android:fontFamily="@font/acme"
+        android:text="WELCOME TO BMI CALCULATOR!"
+        android:textSize="20sp" />
 
 </RelativeLayout>

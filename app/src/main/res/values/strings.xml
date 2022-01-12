@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BMICalculator</string>
+    <string name="email">Contact us on  <a href="mailto:nurfitrah1812@gmail.com">EMAIL</a> </string>
+    <string name="gitHub"> Follow us <a href="https://github.com/fitrahh18/BMICalculator_Fitrah.git">GITHUB</a></string>
+    <string name="youTube">Subscribe our channel <a href="https://www.youtube.com/channel/UC9v5K2xKuJXztIviDU-T32g">YOUTUBE</a></string>
+
 </resources>
