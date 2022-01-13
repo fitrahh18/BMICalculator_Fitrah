@@ -39,19 +39,6 @@
         android:text="@string/email" />
 
 
-    <ImageView
-        android:id="@+id/gambar"
-        android:layout_width="154dp"
-        android:layout_height="229dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="131dp"
-        android:layout_marginLeft="131dp"
-        android:layout_marginTop="8dp"
-        app:srcCompat="@drawable/gambar_passport" />
-
     <TextView
         android:id="@+id/reach"
         android:layout_width="wrap_content"
@@ -123,6 +110,15 @@
         android:fontFamily="@font/acme"
         android:text="GROUP : CS2703B"
         android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="212dp"
+        android:layout_height="240dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        app:srcCompat="@drawable/msg370855907_15857" />
 
 
 </RelativeLayout>
